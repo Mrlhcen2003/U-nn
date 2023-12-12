@@ -1,0 +1,55 @@
+*{
+padding:0;
+margin:0;
+font-family: sans-serif;
+}
+.div1{
+	width:310px;
+	height:450px;
+	border: solid black 3px;
+	border-radius:15px;
+	background-color: gray;
+	display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+.div2{
+	width:250px;
+	height:259px;
+   display:grid;
+   grid-template-columns: repeat(4,1fr);
+  padding:0px;
+}
+body {
+background-image: url("./imgs/img.png");
+display:flex;
+flex-direction:column;
+align-items: center;
+justify-content: space-around;
+height:100vh;
+}
+button{
+	width:59px;
+	height:59px;
+	border: solid black 1px;
+	border-radius:10px;
+	background-color:rgb(213, 206, 203);
+
+}
+.egala{
+background-color: yellow;
+    width:188px;
+    padding:0px 0px 0px 10px;
+
+}
+#input{
+	width:230px;
+	height:40px;
+	margin:10px;
+	border: solid black 1px;
+	border-radius:10px;
+	background-color:white;
+	font-size:33px;
+ padding:0px 0px 0px 10px;
+}
+
